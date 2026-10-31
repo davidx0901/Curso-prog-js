@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <header>
+            <h1 id="Cabesera">Mi panel de actividades</h1>
+    <nav>
+        <a href="#tareas">tareas</a>
+        <a href="#nueva tarea">nueva tarea</a>
+    </nav>
+    </header>
+    <main>
+        <section id="tareas">
+            <h2>Lista de tareas para hoy</h2>
+                <ul>
+                    <li>Estudiar <button>Completar</button></li>
+                    <li>preparar la comida</li>
+                    <li>Descansar un poco</li>
+                </ul>
+        </section>
+
+        <section>
+            <h2>
+                <form>
+                        <label for="titulo">Título de la tarea</label>
+                        <input type="text" id="titulo" required maxlength="80">
+                        <label for="Referencia"> Referencia de el usuario</label>
+                        <input type="text" id="Referencia" required maxlength="7">
+                        <label for="descripcion">Descripción</label>
+                        <textarea id="descripcion"></textarea>
+                        <label for="prioridad">Prioridad</label>
+                        <select id="prioridad">
+                            <option>baja</option>
+                            <option>media</option>
+                            <option>alta</option>
+              
+                        </select>
+                        <select id="Genero">
+                            <option>masculino</option>
+                            <option>femenino</option>
+                            <option>N/A</option>
+                
+                        </select>
+                        <button>Crear tarea</button>
+                </form>
+            </h2>
+        </section>
+          
+    </main>
+    <footer>
+            <p>Busqueda en linea</p>
+                <a href="https://www.google.com/">Google</a>
+            <p>Este soy yo en un dia normal</p>
+                <img src="Screenshot 2025-09-30 012944.png" alt="Una foto de carlos" >
+    </footer>
+</body>
+</html>
